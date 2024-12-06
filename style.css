@@ -1,0 +1,140 @@
+body{
+    justify-content: center;
+    background-color: rgba(238, 237, 237, 0.705);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: auto;
+    margin: 15%;
+    margin-top: 0%;
+}
+
+h1{
+    text-align: center;
+        color: #03ac13;
+}
+
+form{
+    max-width: 850px;         /*  Form ki chorai barh rhe he */
+    margin: auto;
+    background-color: #f3fff4;
+    border-color: #03ac13;
+    border-radius: 2%;
+    padding:2%;
+
+}
+
+fieldset{
+    border-color: #1bdf2e;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+
+legend{
+    /* text-align: center; */
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    /* text-align: center; */
+    
+}
+input{
+    margin: auto;
+}
+
+
+
+
+
+
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 150px;
+}
+
+.resume-container {
+    display: flex;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Section Styling */
+.left-section {
+    background-color: #2c2c2c;
+    color: white;
+    padding: 2profile-picture0px;
+    width: 35%;
+    text-align: center;
+    /* border-right: 5px solid #27772f; */
+}
+
+.profile-picture {
+    width: 175px;
+    height: 175px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid #03ac13;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 26px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+color: #03ac13;
+}
+
+h1 {
+    font-size: 26px;
+    margin: 0px 0px ;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #e5eee6;
+}
+
+
+ul {
+    list-style-type: fill round;
+    padding: 10;
+    margin: 10px 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Right Section Styling */
+.right-section {
+    padding: 20px;
+    width: 65%;
+}
+
+button {
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #ff737c;
+}
+
+b{
+    color: #02cc16;
+}

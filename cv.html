@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gdh Resume</title></head>
+    <link rel="stylesheet" href="style.css">
+<body>
+     
+    <div>
+    
+        <h1> Make Your Cv By GDH Hammad CV Generator </h1>
+
+        <form>
+            <fieldset>
+                <legend> Personal Information </legend>
+                <label for="name">Image: </label>
+                <input type="file" id="image" name="image" required> 
+                <br>
+                <br>
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" required> 
+                <br>
+                <br>
+                <label for="number">Phone Number: </label>
+                <input type="text" id="number" name="number" required>
+                <br> 
+                <br>
+                <label for="email">Email: </label>
+                <input type="text" id="email" name="email" required> 
+                <br>
+                <br>
+                <label for="Adress">Adress: </label>
+                <input type="text" id="Adress" name="Adress" required> 
+                <br>
+                <br>
+                <label for="Adress">Education: </label>
+                <input type="text" id="Education" name="Adress" required> 
+
+
+            </fieldset>
+
+            <!-- list work need to check -->
+
+            <fieldset>
+                <legend> Profile Info </legend>
+                
+                <label for="name"> Profile </label>
+                <textarea id="profile" name="profile" rows="4"></textarea>
+
+                <label for="name"> Education </label>
+                <textarea id="education" name="education" rows="4"></textarea>
+            </fieldset>
+
+            <!-- list work need to check -->
+
+
+            <fieldset>
+                <legend> Experience </legend>
+                
+                <label for="experience"> Experience </label>
+                <textarea id="experience" name="experience" rows="4"></textarea>
+            </fieldset>
+
+            <fieldset>  
+
+             <legend> Skills </legend>
+             <input type="text" id="skills" name="skills">
+
+
+            </fieldset>
+            <br>
+
+            <button> Generate Your Cv Now! </button>
+
+        </form>
+
+    </div>
+
+    
+    
+    <!-- Resume Display -->
+
+    <div class = "resume-container"> 
+            
+        <!-- First Column -->
+    <div class="left-section"> 
+
+        
+        <image src = "" alt = "photo" class = "profile-picture" id="resumeImage" width = 30%>
+            
+            <b id="resumeName"><h1></h1></b>
+
+
+            <section>
+                    <h2>contact</h2>
+                    <p class="contact" id="resumeContact"> <b style="color: aliceblue;">Phone number:</b>
+                    <br> </p>
+
+                    <p id="resumeEmail"> <b style="color: aliceblue;">Email:</b>
+                    <br>              </p>
+                    
+                    <p id="resumeAdress"> <b style="color: aliceblue;">Adress:</b>
+                    <br  >            </p>
+
+        </section>
+
+        <section>
+
+            <h2>Education</h2>
+            <p id="resumeEducation">
+                <!-- <b style="color: aliceblue;">Graduate:</b> <br> -->
+            </p>
+
+        </section>
+
+    </div>
+    
+        <!-- Second column -->
+
+    <div class="right-section">
+
+        <section>
+            <h2 style="text-align: left;">profile</h2>
+        <p id="resumeDiscription">        </p>
+        
+        </section>
+
+        <section> 
+        
+            <h2 style="text-align: left;"> Experience </h2>
+            <p id="resumeExperience">           </p>
+
+        </section>
+
+        <section>
+
+            <h2 style="text-align: left;">Skills</h2>
+            <p id="resumeSkills"></p>
+            
+        </section>
+
+    </div>
+
+    </div>
+    <script src="./script.js"></script>
+
+</body>
+</html>
